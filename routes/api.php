@@ -26,4 +26,4 @@ Route::get('/establishment', [EstablishmentController::class, 'list']); // Feiit
 Route::get('/establishment/{id}', [EstablishmentController::class, 'one']); // Feiito
 Route::put('/establishment/{id}', [EstablishmentController::class, 'update']); // Feiito
 
-// Route::get('/search', [EstablishmentController::class, 'search']);
+//  Route::get('/search', [EstablishmentController::class, 'search']);
